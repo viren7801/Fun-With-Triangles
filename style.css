@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+:root {
+    --primary-color: #4056A1;
+    --secondary-color: #C5CBE3;
+    --third-color: #F13C20;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.header-heading {
+    font-family: 'Lobster', cursive;
+}
+
+nav {
+    text-align: right;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 0rem 0.5rem;
+    margin: 2rem 0rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.heading {
+    color: var(--third-color);
+    margin: 2rem;
+}
+
+.sub-heading {
+    margin: 1rem;
+}
+
+.all-input {
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid var(--primary-color); 
+    border-radius: 0.5rem;
+    font-size: large;
+    padding: 0.5rem 1rem;
+    width: 250px;
+}
+
+.all-label {
+    color: var(--primary-color);
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    font-size: large;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 1.5rem;
+} 
+
+#output-message {
+    font-size: x-large;
+    margin: 1rem;
+    font-weight: 500;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 3rem;
+}
+
+.footer-header {
+    font-size: larger;
+}
+
+li {
+    list-style: none;
+    font-size: 30px;
+    display: inline-block;
+    padding: 1rem 1rem;
+}
+
+.fa {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
